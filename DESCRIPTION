@@ -1,4 +1,4 @@
-Package: numetricApi
+Package: numetricAPI
 Type: Package
 Title: Functions to use Numetric's API
 Version: 0.1.0
