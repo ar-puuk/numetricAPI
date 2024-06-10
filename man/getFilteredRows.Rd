@@ -4,9 +4,19 @@
 \alias{getFilteredRows}
 \title{Get up to 10,000 rows of a filtered dataset (V2)}
 \usage{
-getFilteredRows(apiKey, datasetId, filterType = "term", filterField = "",
-  filterValue = "", customFilterValue = "", startRange = "",
-  endRange = "", size = 10000, includes = "", excludes = "")
+getFilteredRows(
+  apiKey,
+  datasetId,
+  filterType = "term",
+  filterField = "",
+  filterValue = "",
+  customFilterValue = "",
+  startRange = "",
+  endRange = "",
+  size = 10000,
+  includes = "",
+  excludes = ""
+)
 }
 \arguments{
 \item{apiKey}{The API key, in quotes. You can find the API key in the settings after logging into Numetric}

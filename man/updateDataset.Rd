@@ -4,9 +4,17 @@
 \alias{updateDataset}
 \title{Updates the parameters of an existing dataset (V2)}
 \usage{
-updateDataset(apiKey, datasetId, numetricName, dataframeName,
-  category = "New Data", autocompletes = "", geoshapes = "",
-  geopoints = "", boolean = "")
+updateDataset(
+  apiKey,
+  datasetId,
+  numetricName,
+  dataframeName,
+  category = "New Data",
+  autocompletes = "",
+  geoshapes = "",
+  geopoints = "",
+  boolean = ""
+)
 }
 \arguments{
 \item{apiKey}{You can find the API key in the settings after logging into Numetric}

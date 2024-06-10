@@ -4,8 +4,14 @@
 \alias{addRows}
 \title{Add rows to a dataset (V2)}
 \usage{
-addRows(apiKey, datasetId, dataframeName, chunkSize = 1500, printSample = F,
-  nullArrays = F)
+addRows(
+  apiKey,
+  datasetId,
+  dataframeName,
+  chunkSize = 1500,
+  printSample = F,
+  nullArrays = F
+)
 }
 \arguments{
 \item{apiKey}{You can find the API key in the settings after logging into Numetric}

@@ -16,4 +16,4 @@ Depends:
     dplyr (>= 0.5.0),
     magrittr (>= 1.5),
     rlist (>= 0.4.6.1)
-RoxygenNote: 6.0.1
+RoxygenNote: 7.3.1

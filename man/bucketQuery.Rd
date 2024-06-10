@@ -4,9 +4,20 @@
 \alias{bucketQuery}
 \title{Bucket query a Numetric dataset (V2)}
 \usage{
-bucketQuery(apiKey, datasetId, bucketVar, filterType = "none", filterField,
-  filterValue, customFilterValue, must = "true", lowerBound, upperBound,
-  childField, childOperation)
+bucketQuery(
+  apiKey,
+  datasetId,
+  bucketVar,
+  filterType = "none",
+  filterField,
+  filterValue,
+  customFilterValue,
+  must = "true",
+  lowerBound,
+  upperBound,
+  childField,
+  childOperation
+)
 }
 \arguments{
 \item{apiKey}{The API key, in quotes. You can find the API key in the settings after logging into Numetric}

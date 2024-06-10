@@ -4,7 +4,7 @@
 \alias{getTableDetails}
 \title{Get the details of a specific table (V3)}
 \usage{
-getTableDetails(apiKey, tableId, fieldNames = T)
+getTableDetails(apiKey, tableId, fieldNames = T, textOrJSON = "JSON")
 }
 \arguments{
 \item{apiKey}{You can find the API key in the settings after logging into Numetric}
@@ -12,6 +12,9 @@ getTableDetails(apiKey, tableId, fieldNames = T)
 \item{tableId}{The id of the table. You can find this by using the getTables function, or by navigating to the table, and then selecting the string after the last forward slash of the url.}
 
 \item{fieldNames}{By default it returns the display name, order, and type of all the fields. This can make the table very wide. If set to false, this field information will not be returned.}
+}
+\value{
+A list of attributes: accessedAt, accessedBy, acl, categories, createdAt, description, ext, id, name, org, updatedAt, updatedBy, version, ownerInfo, updatedByInfo, fields, primaryKey, transformations, active, stats, status, sourceId, options, schedule
 }
 \description{
 Returns a one row dataframe with meta data about the table of interest. This function uses the V3 version of the API.

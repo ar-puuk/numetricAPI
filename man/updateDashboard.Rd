@@ -4,8 +4,7 @@
 \alias{updateDashboard}
 \title{Updates an existing Numetric dashboard (V2)}
 \usage{
-updateDashboard(apiKey, dashboardId, name = "None", category = "None",
-  content)
+updateDashboard(apiKey, dashboardId, name = "None", category = "None", content)
 }
 \arguments{
 \item{apiKey}{You can find the API key in the settings after logging into Numetric}

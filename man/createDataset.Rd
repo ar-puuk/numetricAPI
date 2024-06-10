@@ -4,9 +4,18 @@
 \alias{createDataset}
 \title{Create a new dataset (V2)}
 \usage{
-createDataset(apiKey, numetricName, dataframeName, category = "New Data",
-  primaryKey, autocompletes = "", geoshapes = "", geopoints = "",
-  boolean = "", everyone = "false")
+createDataset(
+  apiKey,
+  numetricName,
+  dataframeName,
+  category = "New Data",
+  primaryKey,
+  autocompletes = "",
+  geoshapes = "",
+  geopoints = "",
+  boolean = "",
+  everyone = "false"
+)
 }
 \arguments{
 \item{apiKey}{You can find the API key in the settings after logging into Numetric}

@@ -4,9 +4,17 @@
 \alias{createTable}
 \title{Create a new table (V3)}
 \usage{
-createTable(apiKey, numetricName, dataframeName, category = "New Data",
-  primaryKey, geoshapes = "", geopoints = "", boolean = "",
-  everyone = "false")
+createTable(
+  apiKey,
+  numetricName,
+  dataframeName,
+  category = "New Data",
+  primaryKey,
+  geoshapes = "",
+  geopoints = "",
+  boolean = "",
+  everyone = "false"
+)
 }
 \arguments{
 \item{apiKey}{You can find the API key in the settings after logging into Numetric}
